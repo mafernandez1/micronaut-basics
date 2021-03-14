@@ -1,5 +1,5 @@
 --liquibase formatted sql
---changeset misahael:bug_number splitStatements:true endDelimiter:;
+--changeset misahael:01 splitStatements:true endDelimiter:;
 --comment: create initial schema
 CREATE TABLE symbols (
     value VARCHAR PRIMARY KEY
